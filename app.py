@@ -8,6 +8,7 @@ import pandas as pd
 import plotly.express as px
 
 st.sidebar.title("Whatsapp Chat Analyzer")
+st.sidebar.image("https://play-lh.googleusercontent.com/bYtqbOcTYOlgc6gqZ2rwb8lptHuwlNE75zYJu6Bn076-hTmvd96HH-6v7S0YUAAJXoJN")
 # taking file input
 uploaded_file = st.sidebar.file_uploader("Choose a file")
 if uploaded_file is not None:
