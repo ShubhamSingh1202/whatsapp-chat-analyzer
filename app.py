@@ -9,16 +9,7 @@ import plotly.express as px
 
 import streamlit as st
 
-st.markdown(
-    """
-    <script>
-        if (window !== window.parent) {
-            window.open(window.location.href, "_blank");
-        }
-    </script>
-    """,
-    unsafe_allow_html=True
-)
+
 st.sidebar.title("Whatsapp Chat Analyzer")
 st.sidebar.image("https://play-lh.googleusercontent.com/bYtqbOcTYOlgc6gqZ2rwb8lptHuwlNE75zYJu6Bn076-hTmvd96HH-6v7S0YUAAJXoJN")
 # taking file input
