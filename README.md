@@ -1,9 +1,6 @@
 # WhatsApp Chat Analyzer
 
 
-
-<a href="https://whatsapp-chat-analyzer-gyfpo6w8edjbqerixj9nex.streamlit.app/" target="_blank">
-  🚀 Open Full App
-</a>
-
+Demo app : https://whatsapp-chat-analyzer-gyfpo6w8edjbqerixj9nex.streamlit.app/
+⚠️ IMPORTANT: Copy and paste this link into your browser for best experience
 
