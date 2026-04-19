@@ -7,6 +7,7 @@ import preprocessor
 import pandas as pd
 import plotly.express as px
 
+st.set_page_config(layout="wide")
 st.sidebar.title("Whatsapp Chat Analyzer")
 st.sidebar.image("https://play-lh.googleusercontent.com/bYtqbOcTYOlgc6gqZ2rwb8lptHuwlNE75zYJu6Bn076-hTmvd96HH-6v7S0YUAAJXoJN")
 # taking file input
