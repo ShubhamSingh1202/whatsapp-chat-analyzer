@@ -5,5 +5,4 @@ plotly
 pandas
 urlextract
 wordcloud
-string
-emolji
+emoji
