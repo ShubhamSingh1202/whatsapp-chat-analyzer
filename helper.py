@@ -113,4 +113,5 @@ def activity_heatmap(df, selected_user):
         df = df[df["user"] == selected_user]
     tem_df = df[["day_name", "period"]].value_counts().reset_index()
     heatmap_df = pd.pivot_table(index= "day_name", columns= "period",data=df, values="message", aggfunc="count")
+    heatmap_df = heatmap_df.fillna(0)
     return heatmap_df
